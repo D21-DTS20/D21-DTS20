@@ -1,0 +1,16 @@
+@media all and (max-width: 1000px) {
+  .lesson {
+    width:100%;
+    margin-bottom:50px;
+    background-color:blue;
+  }
+
+}
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width:100%;
+    background-color:red;
+  }
+
+}
