@@ -2,7 +2,7 @@
 <html>
   <head>
      <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <title>D21</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -15,9 +15,10 @@
           <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Wikinews-logo.png" width="100px" height="50px">
         </div>
         <div class="header-right">
-          <a href="#" class="home">Home</a>
-          <a href="#" class="login">Log in</a>
-          <a href="#" class="aboutus">About Us</a>
+          
+          <a href="#" class="home"><i class="fa fa-home">Home</i></a>
+          <a href="#" class="login"><i class="fa fa-user"> Log in</i></a>
+          <a href="#" class="aboutus"><i class="fa fa-question"> About Us</i></a>
         </div>
       </div>
     </header>
@@ -48,29 +49,34 @@
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" width="200px" height="200px">
             </div>
-            <p class="txt-contents">???????????</p>
+            <p class="txt-contents">Fajriyansa Perdana </p>
+            <p>Locked Player</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShVW1FgFNxUF6k7X2Ljc56A06RDDI8mtxsO40r_9QlUXAPNdq_&usqp=CAU"width="200px" height="200px">
             </div>
-            <p class="txt-contents">???????????</p>
+            <p class="txt-contents">Gilang Pratama Putra</p>
+            <p>Anonymous Player</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <img src="https://st3.depositphotos.com/1411892/17741/v/1600/depositphotos_177411944-stock-illustration-vector-illustration-missing-person-graphic.jpg" height="200px" width="200px">
             </div>
-            <p class="txt-contents">???????????</p>
+            <p class="txt-contents">Dewi Mulyahati</p>
+            <p>MIA (Mising in Action)</p>
           </div>
         </div>
           <div class="lesson">
             <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <img src="https://www.hipwee.com/wp-content/uploads/2015/06/Frequent-Traveler-Successful1-750x422.jpg" height="200px" width="200px" >
             </div>
-            <p class="txt-contents">???????????</p>
+            <p class="txt-contents">Firdaus Azali.Salah seorang peserta pelatihan online academy (OA), akrab dengan teknologi pemrograman web,saya suka bermain futsal, bulu tangkis, gaming dan sika ikut traveling</p>
+            
           </div>
+           <div class="clear"></div>
         </div>
       </div>
     </div>
