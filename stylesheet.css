@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -17,10 +19,22 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear:left;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+    display:none;
+}
 .container {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+  max-width:1170px;
 }
 
 .top-wrapper {
@@ -123,7 +137,6 @@ header {
 }
 
 .lesson-wrapper {
-  height: 500px;
   padding-bottom: 80px;
   background-color: paleturquoise;
   text-align: center;
@@ -159,8 +172,8 @@ header {
   width: 80%;
   display: inline-block;
   margin-top: 20px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 20px;
+  color: #FFD700;
 }
 
 .message-wrapper {
@@ -185,7 +198,7 @@ header {
 .footer {
   background-color: #2f5167;
   color: #fff;
-  height: 140px;
+  height: 220px;
   padding: 40px;
   display: flex;
   justify-content: space-between;
